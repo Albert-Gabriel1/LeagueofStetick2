@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>League of Stetick</title>
+    <link rel="stylesheet" href="estilo/lol.css">
+</head>
+<body>
+   <header>
+        <h1>League Of Stetick</h1>
+        <h2>Faça seu perfil de campeão</h2>
+        <img src="imagens/perfil.jpg" alt="perfil">
+        <p><a href="#">Volta para a pagina</a></p>
+    </header>
+    <main>
+        <form method="post" onsubmit="confirmou(); return false;">
+            <fieldset id="fildprincip">
+                <legend>Formulario </legend>
+                <div class="div01">
+                    <fieldset class="dados">
+                        <legend>Campeão</legend>
+        
+                        <div>
+                            <label for="inick">Nickname:</label>
+                        </div>
+                        <div>
+                            <input type="text" name="nick" id="inick" required maxlength="20" autocomplete="nickname" placeholder="Ex: zezinho da manga">
+                        </div>
+                        <div>
+                            <label for="iid">Riot id:</label>
+                        </div>
+                        <div>
+                            <input type="text" name="id" id="iid" placeholder="Ex: Nome#1234" required pattern="/^.{3,}#\d{3,}$/">
+                        </div>
+                        <div>
+                            <label for="icamp">Campeão preferido:</label>
+                        </div>
+                        <div>
+                            <input type="text" name="camp" id="icamp" required placeholder="Ex: Ashe">
+                        </div>
+                        <div>
+                            <label for="ifuncao">Função preferida</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="funcao" id="atirador" checked>atirador
+                            <input type="radio" name="funcao" id="selva">selva
+                            <input type="radio" name="funcao" id="meio">meio
+                            <input type="radio" name="funcao" id="suporte">suporte
+                            <input type="radio" name="funcao" id="top">top
+                        </div>
+                    </fieldset>
+                        <fieldset class="dados">
+                            <legend>Pessoal</legend>
+                            <div>
+                                <label for="iregiao">Servidor/Região</label>
+                            </div>
+                            <div>
+                                <select name="regiao" id="iregiao">
+                                    <optgroup>
+                                        <option value="BR">Brasil</option>
+                                        <option value="NA">North America</option>
+                                        <option value="EUW">Europe West</option>
+                                        <option value="EUNE">Europe Nordic & East</option>
+                                        <option value="LAN">Latin America North</option>
+                                        <option value="LAS">Latin American South</option>
+                                        <option value="KR">Korea</option>
+                                        <option value="OCE">Oceania</option>
+                                        <option value="TR">Turkey</option>
+                                        <option value="RU">Russia</option>
+                                    </optgroup>
+                                </select>
+                                <br>
+                                </div>
+                                <div><label for="ielo">ELO atual</label></div>
+                                <div>
+                                    <select name="elo" id="ielo">
+                                        <optgroup>
+                                            <option value="Ferro">Ferro</option>
+                                            <option value="Bronze">Bronze</option>
+                                            <option value="Prata">Prata</option>
+                                            <option value="Ouro">Ouro</option>
+                                            <option value="Platina">Platina</option>
+                                            <option value="Diamante">Diamante</option>
+                                            <option value="Mestre">Mestre</option>
+                                            <option value="Grão-mestre">Grão-mestre</option>
+                                            <option value="Desafiante">Desafiante</option>
+                                        </optgroup>
+                                    </select>
+                                </div>
+                                <div>
+                                    <label for="iidade">Data de nascimento</label>
+                                </div>
+                                <div>
+                                    <input type="number" name="idade" id="iidade" required placeholder="2007">
+                                </div>
+                                <div>
+                                    <label for="icoach">Aceita ser mentor/coach?</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" name="coath" id="icoachsim" checked>Sim,quero ajudar novatos
+                                </div>
+                                <br>
+                                <div>
+                                    <label for="iavatar">Avatar</label>
+                                </div>
+                                <div>
+                                    <input type="file" name="avatar" id="iavatar">
+                                </div>
+                        </fieldset>
+                    </div>
+                        <input type="submit" value="Enviar">
+                        <input type="reset" value="Limpar">
+                    </div>
+                    <div id="result">Dados aqui</div>
+                </fieldset>
+        </form>
+    </main>
+    <footer>
+        Riot games(Uso educactivo) e kirio 2025
+    </footer>
+    <script src="lol.js"></script>
+</body>
+</html>
