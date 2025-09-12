@@ -9,6 +9,10 @@ body{
     font-family: "League Spartan", sans-serif;
     font-optical-sizing: auto;
 }
+a{
+    color: #D9ADA9;
+    text-decoration: none;
+}
 img{
     border: 2px solid #2A8C82
 }
@@ -41,4 +45,13 @@ header{
 }
 h1,h2{
     color:  #BFA26B;
+}
+a:hover{
+    text-decoration: underline;
+    background-color: #2A8C82;
+    color:#400D1A
+}
+footer{
+    border: 1px solid black;
+    background-color: #73122c91;
 }

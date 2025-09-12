@@ -24,6 +24,7 @@ function confirmou(){
    <p>Campeão: ${camp}</p>
    <p>Região: ${regiao}</p>
    <p>Elo: ${elo}</p>
-   <p>Função:${funcao}</p>`;
+   <p>Função:${funcao}</p>`
+   ;
    }
 }
