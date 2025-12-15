@@ -8,6 +8,10 @@ body{
     color: #D9ADA9;
     font-family: "League Spartan", sans-serif;
     font-optical-sizing: auto;
+    min-height: 100vh;
+}
+main{
+    min-height: 100%;
 }
 a{
     color: #D9ADA9;
