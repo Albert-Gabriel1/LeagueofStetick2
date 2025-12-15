@@ -26,7 +26,7 @@ fieldset{
 form{
     margin: auto;
     padding: 10px;
-    width: 60vw;
+    height: 100%;
     height: 600px;
 }
 .dados{
