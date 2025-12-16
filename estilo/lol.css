@@ -28,7 +28,7 @@ form{
     margin: auto;
     padding: 10px;
     min-height: auto;
-    max-width: 100%;
+    min-width: 100%;
 }
 .dados{
     background-color: #73122C;
@@ -45,9 +45,7 @@ form{
     flex: 1;
     flex-direction: column;
 }
-div{
-    margin: 5px;
-}
+
 header{
     border: 2px solid #D9ADA9;
 }
