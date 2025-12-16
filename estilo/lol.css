@@ -34,6 +34,7 @@ form{
     background-color: #73122C;
     text-align:left;
     width: 100%;
+    max-width: 500px;
     padding: 5px;
 }
 .div01{
@@ -41,6 +42,8 @@ form{
     flex: 1;
     gap: 5px;
     display: flex;
+    flex: 1;
+    flex-direction: column;
 }
 div{
     margin: 5px;
