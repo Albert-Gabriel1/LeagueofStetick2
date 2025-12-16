@@ -9,11 +9,10 @@ body{
     font-family: "League Spartan", sans-serif;
     font-optical-sizing: auto;
     min-height: 100%;
-    min-width: 100%;
 }
 main{
     min-height: 100dvh;
-    min-width: 80dvw;
+    max-width: 100%;
 }
 a{
     color: #D9ADA9;
@@ -29,7 +28,7 @@ form{
     margin: auto;
     padding: 10px;
     min-height: 100dvh;
-    min-width: 100dvw;
+    max-width: 100%;
 }
 .dados{
     background-color: #73122C;
