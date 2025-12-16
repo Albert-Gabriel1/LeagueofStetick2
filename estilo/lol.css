@@ -9,7 +9,7 @@ body{
     font-family: "League Spartan", sans-serif;
     font-optical-sizing: auto;
     min-height: 100%;
-    min-width: 80%;
+    min-width: 100%;
 }
 main{
     min-height: 100dvh;
@@ -28,7 +28,8 @@ fieldset{
 form{
     margin: auto;
     padding: 10px;
-    min-height: 80dvh;
+    min-height: 100dvh;
+    min-width: 100dvw;
 }
 .dados{
     background-color: #73122C;
