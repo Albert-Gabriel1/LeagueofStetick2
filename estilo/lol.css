@@ -27,13 +27,13 @@ fieldset{
 form{
     margin: auto;
     padding: 10px;
-    min-height: 100dvh;
+    min-height: auto;
     max-width: 100%;
 }
 .dados{
     background-color: #73122C;
     text-align:left;
-    width: 50%;
+    width: 100%;
     padding: 5px;
 }
 .div01{
